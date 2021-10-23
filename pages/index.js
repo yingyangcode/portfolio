@@ -37,17 +37,17 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Japan!
+        Hello, I&apos;m a full-stack developer based in Toronto!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Marcel Anis
           </Heading>
           <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
-        <Box
+        {/* <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
           ml={{ md: 6 }}
@@ -63,7 +63,7 @@ const Home = () => (
             src="/images/takuya.jpg"
             alt="Profile image"
           />
-        </Box>
+        </Box> */}
       </Box>
 
       <Section delay={0.1}>
@@ -71,24 +71,29 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          {/* Marcel is a freelance and a full-stack developer based in Osaka with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          product called{' '} 
+          
           <NextLink href="/works/inkdrop">
             <Link>Inkdrop</Link>
           </NextLink>
-          .
+          . */}
+          Marcel is a full-stack developer based in Toronto with a passion for
+          building digital services. He has a knack for all things launching
+          products, from planning and designing all the way to solving real-life
+          problems with code.
         </Paragraph>
-        <Box align="center" my={4}>
+        {/* <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section>
 
       <Section delay={0.2}>
@@ -96,22 +101,21 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1990</BioYear>
+          Born in Dhaka, Bangladesh.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2015</BioYear>
+          Completed the Bachelor&apos;s Program in Mechatronics Engineering at
+          University of Waterloo, Canada.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2016</BioYear>
+          Worked at AudienceView
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>2020 to present</BioYear>
+          Works as a full-stack developer at Enable Education
         </BioSection>
       </Section>
 
@@ -120,15 +124,15 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+          Digital Art, Music,{' '}
+          {/* <Link href="https://illust.odoruinu.net/" target="_blank">
             Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          </Link> */}
+          {/* , Playing Drums,{' '} */}
+          {/* <Link href="https://500px.com/p/craftzdog" target="_blank">
             Photography
-          </Link>
-          , Leica, Machine Learning
+          </Link> */}
+          Soccer, Cryptocurrency & Blockchains
         </Paragraph>
       </Section>
 
@@ -138,17 +142,17 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/yingyangcode" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
+                @yingyangcode
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://twitter.com/inkdrop_app" target="_blank">
               <Button
                 variant="ghost"
@@ -158,8 +162,8 @@ const Home = () => (
                 @inkdrop_app
               </Button>
             </Link>
-          </ListItem>
-          <ListItem>
+          </ListItem> */}
+          {/* <ListItem>
             <Link href="https://twitter.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
@@ -169,8 +173,8 @@ const Home = () => (
                 @craftzdog
               </Button>
             </Link>
-          </ListItem>
-          <ListItem>
+          </ListItem> */}
+          {/* <ListItem>
             <Link href="https://instagram.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
@@ -180,8 +184,8 @@ const Home = () => (
                 @craftzdog
               </Button>
             </Link>
-          </ListItem>
-          <ListItem>
+          </ListItem> */}
+          {/* <ListItem>
             <Link href="https://discord.gg/QfsG5Kj" target="_blank">
               <Button
                 variant="ghost"
@@ -191,10 +195,10 @@ const Home = () => (
                 Discord
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
@@ -217,7 +221,7 @@ const Home = () => (
               Popular posts
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section>
     </Container>
   </Layout>
